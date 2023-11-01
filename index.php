@@ -124,7 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section id="login"
         class="bg-[url('https://cdn-icons-png.flaticon.com/512/136/136522.png')] h-[100vh] bg-no-repeat bg-center">
         <div class="backdrop-blur-md bg-black/50 w-full h-full flex flex-col items-center justify-center">
-            <form class="mt-24 w-[30%] bg-black p-10" action="login.php" method="post">
+            <form class="mt-24 w-[30%] bg-black p-10" action="index.php" method="post">
                 <div class="mb-6">
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
                         email</label>
